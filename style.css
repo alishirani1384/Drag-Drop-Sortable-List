@@ -78,7 +78,13 @@ body p{
   outline: none;
 }
 @media screen and (max-width:700px){
-body{
-  display:none;
+h1,p,.draggable-list,.check-btn{
+display:none;
+  }
+  i{
+    font-size:4rem;
+  }
+  h2{
+    display:block;
   }
 }
