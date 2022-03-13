@@ -77,14 +77,6 @@ body p{
 .check-btn:focus {
   outline: none;
 }
-@media screen and (max-width:700px){
-h1,p,.draggable-list,.check-btn{
-display:none;
-  }
-  i{
-    font-size:4rem;
-  }
-  h2{
-    display:block;
-  }
+h2{
+text-align:center;
 }
