@@ -16,7 +16,6 @@ body {
   margin: 0;
   font-family: sans-serif;
   font-weight: 600;
-  overflow:hidden;
 }
 body p{
   text-align: center;
@@ -77,4 +76,9 @@ body p{
 }
 .check-btn:focus {
   outline: none;
+}
+@media screen and (max-width:700px){
+body{
+  display:none;
+  }
 }
